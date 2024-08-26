@@ -77,3 +77,40 @@ Tecnologias Utilizadas
     Docker e Docker Compose para containerização.
     [Java, Spring, RabbitMQ]
     [MYSQL]
+
+# Visualizando o RabbitMQ
+
+Este documento fornece instruções sobre como acessar o RabbitMQ usando a porta padrão e as credenciais padrão.
+
+## Pré-requisitos
+
+- **RabbitMQ** deve estar em execução na sua máquina ou servidor.
+- Acesso ao navegador web.
+
+## Como Acessar o RabbitMQ
+
+1. **Abra seu navegador web:**
+
+   Para visualizar o painel de gerenciamento do RabbitMQ, abra o seu navegador preferido.
+
+2. **Digite a URL padrão:**
+
+   No navegador, digite o seguinte endereço para acessar o RabbitMQ:
+
+http://localhost:15672
+
+
+Aqui, `localhost` se refere à máquina local onde o RabbitMQ está sendo executado. A porta `15672` é a porta padrão utilizada pelo painel de gerenciamento do RabbitMQ.
+
+3. **Faça login com as credenciais padrão:**
+
+Quando o prompt de login aparecer, use as credenciais padrão:
+
+- **Usuário:** `guest`
+- **Senha:** `guest`
+
+**Nota:** As credenciais padrão (`guest`/`guest`) funcionam apenas se você estiver acessando o RabbitMQ a partir de `localhost`. Para acesso remoto, as configurações padrão de segurança do RabbitMQ desativam o usuário `guest`.
+
+4. **Navegue no painel de gerenciamento:**
+
+Após o login, você terá acesso ao painel de gerenciamento do RabbitMQ, onde pode visualizar e gerenciar filas, exchanges, bindings, entre outras configurações.
