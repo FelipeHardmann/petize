@@ -24,7 +24,7 @@ docker-compose up -d
 
 3. **Acesse a aplicação:**
 
-A aplicação estará disponível em http://localhost:porta, dependendo da configuração no seu docker-compose.yml.
+A aplicação estará disponível em http://localhost:8080
 
 Aqui está o README com todas as partes devidamente formatadas em Markdown:
 
