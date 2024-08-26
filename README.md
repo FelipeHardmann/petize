@@ -17,8 +17,8 @@ Este projeto foi desenvolvido para a empresa **Petize** com o objetivo de gerenc
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/usuario/petize-sistema-pedidos.git
-   cd petize-sistema-pedidos
+   git clone https://github.com/FelipeHardmann/petize.git
+   cd petize
 2. **Suba os containers usando Docker Compose:**
 docker-compose up -d
 
