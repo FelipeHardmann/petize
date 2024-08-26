@@ -1,0 +1,24 @@
+services:
+  db:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'db_petize'
+      MYSQL_USER: 'admin'
+      MYSQL_PASSWORD: 'root'
+      MYSQL_ROOT_PASSWORD: 'root'
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+    volumes:
+      - mysql-db:/var/lib/mysql
+
+  rabbitmq:
+    image: rabbitmq:3.13-management
+    ports:
+      - '15672:15672'
+      - '5672:5672'
+
+volumes:
+  mysql-db:
